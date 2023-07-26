@@ -1,0 +1,52 @@
+### Sorting:
+Terminology: 
+- Increasing order {1,2,3,4,5,6}
+- Decreasing order {6,5,4,3,2,1}
+- non-increasing order {1,2,3,4,4,5}
+- non-decreasing order {5,4,3,2,2,2}
+
+##### types of sorting
+Based on Place:
+- in place (bubble sort)
+- out-place (merge sort)
+Based on stability:
+- stable (insertion sort)
+- unstable (quick sort)
+
+##### available sorting algorithms (techniques)
+- Bubble sort
+- Selection sort
+- Bucket sort
+- Merge sort
+- Quick sort
+- Heap sort
+
+
+Which one to select?
+- stability
+- space efficient
+- time efficient
+
+pseudocode: Bubble Sort 
+
+```
+methodName(array of int)
+- check size of array if equal or less no need to sort
+- compare adjacent elements
+- swaps them if first elements is greater than next
+- repeat until the elements are in the order
+```
+
+Bubble Sort:
+- Time Complexity O(N^2)
+- Space Complexity O(1)
+Where to use Bubble sort
+- when the input is almost sorted
+- Space is a concern
+- Easy to implement
+
+When to avoid Bubble Sort?
+- Average time complexity is poor
+
+##### Selection Sort
+find minimum value and take them in left-most position as sorted list, then find another minimum value and add that to sorted list.
